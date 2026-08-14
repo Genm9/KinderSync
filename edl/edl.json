@@ -1,0 +1,87 @@
+{
+    "project": "KinderSync Graduation 2026",
+    "version": "1.0",
+    "status": "approved",
+    "segments": [
+        {
+            "seg_id": 1,
+            "start": 239.0,
+            "end": 249.0,
+            "camera": "Camera2_Right",
+            "reason": "Front-Right camera establishes the opening scene with a steady view of the stage entrance.",
+            "transition": "fade"
+        },
+        {
+            "seg_id": 2,
+            "start": 249.0,
+            "end": 270.0,
+            "camera": "Camera1_Left",
+            "reason": "Switching to the left-side angle to capture the performers' movement from a new perspective.",
+            "transition": "cut"
+        },
+        {
+            "seg_id": 3,
+            "start": 270.0,
+            "end": 280.0,
+            "camera": "Camera2_Right",
+            "reason": "Returning to the main front-right camera view to provide a clear, balanced look at the group choreography.",
+            "transition": "fade"
+        },
+        {
+            "seg_id": 4,
+            "start": 280.0,
+            "end": 290.0,
+            "camera": "Camera1_Left",
+            "reason": "Left-side framing highlights the detail of the performance as the children move across the stage.",
+            "transition": "cut"
+        },
+        {
+            "seg_id": 5,
+            "start": 290.0,
+            "end": 321.0,
+            "camera": "Camera3",
+            "reason": "Maintaining the front camera master angle for consistent coverage of the main routine.",
+            "transition": "cut"
+        },
+        {
+            "seg_id": 6,
+            "start": 321.0,
+            "end": 327.0,
+            "camera": "Camera2_Right",
+            "reason": "Switch to the right side to emphasize the energy and rhythm of the drum section.",
+            "transition": "fade"
+        },
+        {
+            "seg_id": 7,
+            "start": 327.0,
+            "end": 336.0,
+            "camera": "Camera4",
+            "reason": "Front angle captures the full synchronised sequence with maximum clarity.",
+            "transition": "cut"
+        },
+        {
+            "seg_id": 8,
+            "start": 336.0,
+            "end": 342.0,
+            "camera": "Camera1_Left",
+            "reason": "Left-side perspective focuses on the performers' expressions during this emotional segment.",
+            "transition": "fade"
+        },
+        {
+            "seg_id": 9,
+            "start": 342.0,
+            "end": 360.0,
+            "camera": "Camera2_Right",
+            "reason": "Right camera establishes the full stage and scale of the hall for the grand finale.",
+            "transition": "cut"
+        },
+        {
+            "seg_id": 10,
+            "start": 360.0,
+            "end": 364.0,
+            "camera": "Camera1_Left",
+            "reason": "Left angle puts the audience in the foreground, showing the performance in its setting for the closing.",
+            "transition": "fade"
+        }
+    ]
+}
