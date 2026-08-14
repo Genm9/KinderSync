@@ -1,7 +1,9 @@
 # KinderSync
 ## AI-Assisted Multi-Camera Kindergarten Graduation Video Editing Pipeline
 
-KinderSync is a semi-automated video editing pipeline designed to help kindergarten teachers create graduation highlight videos from four camera angles with minimal effort and high ethical standards.
+KinderSync is a semi-automated video editing pipeline designed to reduce the workload of kindergarten teachers when producing graduation videos from multiple camera recordings.
+
+The system synchronizes footage from four cameras, applies rule-based logic to assist with camera angle selection, generates an Editing Decision List (EDL), and renders a short graduation highlight video for human review and approval. The project emphasizes responsible AI use, children's privacy protection, parental consent, copyright compliance, software licensing awareness, and mandatory human oversight throughout the workflow.
 
 ### Features
 - **Audio-Based Sync**: Automatically aligns four camera recordings.
