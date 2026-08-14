@@ -25,7 +25,7 @@ def run_pipeline():
     # 3. Analysis & Recommendation (FR-3 & FR-4)
     print("\n[Step 2] Analyzing segments and recommending cameras...")
     selector = CameraSelector()
-    events = selector.detect_events(duration=104) # Total duration of 12 segments
+    events = selector.detect_events(duration=104) # Total duration of 10 segments
     recommendations = selector.recommend_cameras(events)
     
     # 4. EDL Generation (FR-5)
