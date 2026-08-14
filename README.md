@@ -13,9 +13,9 @@ KinderSync is a semi-automated video editing pipeline designed to help kindergar
 - `data/`: Raw video and audio footage.
 - `synchronization/`: Audio alignment logic.
 - `analysis/`: Event detection and camera selection rules.
-- `edl/`: Editing Decision List generation and human review tool.
+- `edl/`: Editing Decision List generation and human review tool, and display EDL.json.
 - `renderer/`: MoviePy-based video assembly.
-- `output/`: Display final video & EDL.
+- `output/`: Display final video.
 - `main.py`: Main pipeline orchestrator.
 
 ### How to Run
