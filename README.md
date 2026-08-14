@@ -22,8 +22,6 @@ KinderSync is a semi-automated video editing pipeline designed to help kindergar
 - Python 3.9 or higher (developed and tested with Python 3.13)
 - [ffmpeg](https://ffmpeg.org/download.html) installed and available on your system PATH 
   (required by `moviepy` and `ffmpeg-python` for video encoding/decoding)
-- ImageMagick installed if you encounter `TextClip` rendering errors on MoviePy v1.x 
-  (MoviePy v2.x uses Pillow by default)
   
 ### How to Run
 1. Install dependencies:
