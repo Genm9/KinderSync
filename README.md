@@ -44,7 +44,7 @@ This project adheres to Malaysia's PDPA 2010 and responsible AI principles:
 - **Human Oversight**: Every cut is reviewed by a human editor.
 - **Privacy by Design**: No facial recognition or child identification.
 - **Sample Data Disclaimer**: The sample video/audio files included in this repository 
-  (e.g. `graduation_highlight.mp4 (sample).txt`, `Camera1_mp4__sample_.txt`) are provided for 
+  (e.g. `graduation_highlight.mp4 (sample).txt`, `Camera1_Left.mp4 (sample).txt`) are provided for 
   demonstration purposes only. Before using this pipeline with real footage, users 
   must independently obtain explicit consent from the parents/guardians of every 
   child appearing in the recordings, in accordance with local child protection and 
