@@ -18,6 +18,13 @@ KinderSync is a semi-automated video editing pipeline designed to help kindergar
 - `outputs/`: Display final video.
 - `main.py`: Main pipeline orchestrator.
 
+### Prerequisites
+- Python 3.9 or higher (developed and tested with Python 3.13)
+- [ffmpeg](https://ffmpeg.org/download.html) installed and available on your system PATH 
+  (required by `moviepy` and `ffmpeg-python` for video encoding/decoding)
+- ImageMagick installed if you encounter `TextClip` rendering errors on MoviePy v1.x 
+  (MoviePy v2.x uses Pillow by default)
+  
 ### How to Run
 1. Install dependencies:
    ```bash
@@ -33,6 +40,14 @@ KinderSync is a semi-automated video editing pipeline designed to help kindergar
 
 ### Ethical Compliance
 This project adheres to Malaysia's PDPA 2010 and responsible AI principles:
-- **Local Processing**: No footage is uploaded to the cloud.
+- **Local Processing**: No footage is uploaded to the cloud. All video and audio 
+  processing—synchronization, analysis, and rendering—runs entirely on local hardware. 
+  No footage or metadata is ever sent to third-party APIs or external cloud services.
 - **Human Oversight**: Every cut is reviewed by a human editor.
 - **Privacy by Design**: No facial recognition or child identification.
+- **Sample Data Disclaimer**: The sample video/audio files included in this repository 
+  (e.g. `graduation_highlight.mp4`, `Camera1_mp4__sample_.txt`) are provided for 
+  demonstration purposes only. Before using this pipeline with real footage, users 
+  must independently obtain explicit consent from the parents/guardians of every 
+  child appearing in the recordings, in accordance with local child protection and 
+  privacy regulations.
