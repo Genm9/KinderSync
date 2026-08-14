@@ -1,0 +1,6 @@
+moviepy
+audalign
+opencv-python
+pandas
+numpy
+ffmpeg-python
